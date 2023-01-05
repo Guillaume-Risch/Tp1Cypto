@@ -6,7 +6,7 @@ import java.security.MessageDigest;
 import java.util.Arrays;
 import java.util.Base64;
 
-public class Main {
+public class Check {
     public static String getXAuth(String emailFile) throws IOException, Exception {
         // Read the contents of the email file
         byte[] contents = Files.readAllBytes(Paths.get(emailFile));
